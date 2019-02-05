@@ -1,0 +1,34 @@
+{
+  "name": "trello-powerup-custom",
+  "version": "1.0.0",
+  "description": "Custom powerup with various things",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teuteuf/trello-powerup-custom.git"
+  },
+  "author": "teuteuf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teuteuf/trello-powerup-custom/issues"
+  },
+  "homepage": "https://github.com/teuteuf/trello-powerup-custom#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "howlongtobeat": "^1.1.1",
+    "node-nocache": "^1.0.5"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}

@@ -24,7 +24,7 @@
     "node-nocache": "^1.0.5"
   },
   "engines": {
-    "node": "9.x"
+    "node": "10.15.1"
   },
   "devDependencies": {
     "eslint": "^5.13.0",

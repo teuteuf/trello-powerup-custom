@@ -6,9 +6,10 @@ const { Promise } = TrelloPowerUp;
 const HLTB_ICON = 'https://howlongtobeat.com/img/icons/favicon-96x96.png';
 
 const getBadges = t => t.card('name', 'labels')
-  .then((cardInfo) => {
+  .then(async (cardInfo) => {
+    const boardInfo = await t.board('name');
     const labelGame = cardInfo.labels.find(label => label.name === 'Game' || label.name === 'Jeu');
-    if (!labelGame) {
+    if (!(boardInfo.name === 'Games' || labelGame)) {
       return [];
     }
     return [{

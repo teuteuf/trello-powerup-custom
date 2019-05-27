@@ -3,7 +3,7 @@
 
 const { Promise } = TrelloPowerUp;
 
-const HLTB_ICON = 'https://howlongtobeat.com/img/icons/favicon-96x96.png';
+const HLTB_ICON = 'https://howlongtobeat.com/img/icons/favicon-32x32.png';
 
 const getBadges = t => t.card('name', 'labels')
   .then(async (cardInfo) => {

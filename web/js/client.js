@@ -18,7 +18,7 @@ const getBadges = t => t.card('name', 'labels')
           resolve({
             title: 'HOW LONG TO BEAT',
             text: hltbResult.duration,
-            icon: HLTB_ICON,
+            // icon: HLTB_ICON,
             color: hltbResult.color,
           });
         });
